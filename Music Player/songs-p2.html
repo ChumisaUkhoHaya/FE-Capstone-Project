@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./songs-p2.css" rel="stylesheet" />
+
+      <div class="songs-p2-container1">
+        <div class="songs-p2-songs-p2">
+          <div class="songs-p2-statusbar">
+            <span class="songs-p2-text10"><span>9:30</span></span>
+            <div class="songs-p2-righticons">
+              <div class="songs-p2-wifi">
+                <img
+                  alt="PathI2021"
+                  src="public/external/pathi2021-jroe.svg"
+                  class="songs-p2-path1"
+                />
+              </div>
+              <div class="songs-p2-signal">
+                <img
+                  alt="PathI2021"
+                  src="public/external/pathi2021-13wg.svg"
+                  class="songs-p2-path2"
+                />
+              </div>
+              <img
+                alt="BatteryI2021"
+                src="public/external/batteryi2021-jfh.svg"
+                class="songs-p2-battery"
+              />
+            </div>
+            <img
+              alt="CameraCutoutI2021"
+              src="public/external/cameracutouti2021-9ib4.svg"
+              class="songs-p2-camera-cutout"
+            />
+          </div>
+          <div class="songs-p2-searchbar">
+            <div class="songs-p2-statelayer10">
+              <div class="songs-p2-leadingicon">
+                <div class="songs-p2-container2">
+                  <div class="songs-p2-statelayer11">
+                    <img
+                      alt="IconI2021"
+                      src="public/external/iconi2021-fipx.svg"
+                      class="songs-p2-icon1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-content1">
+                <span class="songs-p2-text12 M3bodylarge"></span>
+              </div>
+              <div class="songs-p2-trailing-elements">
+                <div class="songs-p2-frame1sttrailingicon">
+                  <div class="songs-p2-container3">
+                    <div class="songs-p2-statelayer12">
+                      <img
+                        alt="IconI2021"
+                        src="public/external/iconi2021-q1.svg"
+                        class="songs-p2-icon2"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="songs-p2-avatartarget">
+                  <div class="songs-p2-avatar">
+                    <img
+                      alt="BackgroundI2021"
+                      src="public/external/backgroundi2021-a0r-200h.png"
+                      class="songs-p2-background"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="songs-p2-topappbar">
+            <span class="songs-p2-text13 M3titlelarge"></span>
+          </div>
+          <div class="songs-p2-filterchipscarousel">
+            <div class="songs-p2-filterchip021">
+              <div class="songs-p2-statelayer13">
+                <img
+                  alt="iconI2021"
+                  src="public/external/iconi2021-kqwq.svg"
+                  class="songs-p2-icon3"
+                />
+                <span class="songs-p2-text14 M3labellarge">
+                  <span>Songs</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip03">
+              <div class="songs-p2-statelayer14">
+                <span class="songs-p2-text16 M3labellarge">
+                  <span>Playlist</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip04">
+              <div class="songs-p2-statelayer15">
+                <span class="songs-p2-text18 M3labellarge">
+                  <span>Genres</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip051">
+              <div class="songs-p2-statelayer16">
+                <span class="songs-p2-text20 M3labellarge">
+                  <span>Albums</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip052">
+              <div class="songs-p2-statelayer17">
+                <span class="songs-p2-text22">Artists</span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip06">
+              <div class="songs-p2-statelayer18">
+                <span class="songs-p2-text23 M3labellarge">
+                  <span>Artists</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip08"></div>
+            <div class="songs-p2-filterchip09"></div>
+            <div class="songs-p2-filterchip10"></div>
+          </div>
+          <div class="songs-p2-frame1">
+            <div class="songs-p2-list">
+              <div class="songs-p2-listitem1">
+                <div class="songs-p2-statelayer19">
+                  <div class="songs-p2-leadingelement1">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail1">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-9d9a-200h.png"
+                        class="songs-p2-thumbnail1"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content2">
+                    <span class="songs-p2-text25 M3bodylarge">
+                      <span>Ms. Jackson</span>
+                    </span>
+                    <span class="songs-p2-text27 M3bodymedium">
+                      <span>Outkast</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement1">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-t58i.svg"
+                      class="songs-p2-morevert1"
+                    />
+                  </div>
+                </div>
+                <div class="songs-p2-divider1">
+                  <img
+                    alt="DividerI2021"
+                    src="public/external/divideri2021-x0e.svg"
+                    class="songs-p2-divider2"
+                  />
+                </div>
+              </div>
+              <div class="songs-p2-listitem2">
+                <div class="songs-p2-statelayer20">
+                  <div class="songs-p2-leadingelement2">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail2">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-sneb-200h.png"
+                        class="songs-p2-thumbnail2"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content3">
+                    <span class="songs-p2-text29 M3bodylarge">
+                      <span>Dear Mama</span>
+                    </span>
+                    <span class="songs-p2-text31 M3bodymedium">
+                      <span>2Pac</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement2">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-7bst.svg"
+                      class="songs-p2-morevert2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-listitem3">
+                <div class="songs-p2-statelayer21">
+                  <div class="songs-p2-leadingelement3">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail3">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-i2eh-200h.png"
+                        class="songs-p2-thumbnail3"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content4">
+                    <span class="songs-p2-text33 M3bodylarge">
+                      <span>Hypnotize - 2007 Remaster</span>
+                    </span>
+                    <span class="songs-p2-text35 M3bodymedium">
+                      <span>The Notorious B.I.G.</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement3">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-6cri.svg"
+                      class="songs-p2-morevert3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-listitem4">
+                <div class="songs-p2-statelayer22">
+                  <div class="songs-p2-leadingelement4">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail4">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-01km-200h.png"
+                        class="songs-p2-thumbnail4"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content5">
+                    <span class="songs-p2-text37 M3bodylarge">
+                      <span>Location (feat. Burna Boy)</span>
+                    </span>
+                    <span class="songs-p2-text39 M3bodymedium">
+                      <span>Dave</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement4">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-u51a.svg"
+                      class="songs-p2-morevert4"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-listitem5">
+                <div class="songs-p2-statelayer23">
+                  <div class="songs-p2-leadingelement5">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail5">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-3ln-200h.png"
+                        class="songs-p2-thumbnail5"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content6">
+                    <span class="songs-p2-text41 M3bodylarge">
+                      <span>Pretty Little Fears (feat. J. Cole)</span>
+                    </span>
+                    <span class="songs-p2-text43 M3bodymedium">
+                      <span>6LACK</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement5">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-h0qb.svg"
+                      class="songs-p2-morevert5"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-listitem6">
+                <div class="songs-p2-statelayer24">
+                  <div class="songs-p2-leadingelement6">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail6">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-yee2-200h.png"
+                        class="songs-p2-thumbnail6"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content7">
+                    <span class="songs-p2-text45 M3bodylarge">
+                      <span>The Real Slim Shady</span>
+                    </span>
+                    <span class="songs-p2-text47 M3bodymedium">
+                      <span>Eminem</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement6">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-pzrh.svg"
+                      class="songs-p2-morevert6"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-listitem7">
+                <div class="songs-p2-statelayer25">
+                  <div class="songs-p2-leadingelement7">
+                    <div class="songs-p2-frame-building-blocksimage-thumbnail7">
+                      <img
+                        alt="ThumbnailI2021"
+                        src="public/external/thumbnaili2021-d00e-200h.png"
+                        class="songs-p2-thumbnail7"
+                      />
+                    </div>
+                  </div>
+                  <div class="songs-p2-content8">
+                    <span class="songs-p2-text49 M3bodylarge">
+                      <span>m.A.A.d city</span>
+                    </span>
+                    <span class="songs-p2-text51 M3bodymedium">
+                      <span>Kendrick Lamar</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-trailingelement7">
+                    <img
+                      alt="morevertI2021"
+                      src="public/external/moreverti2021-lh8.svg"
+                      class="songs-p2-morevert7"
+                    />
+                  </div>
+                </div>
+                <div class="songs-p2-divider3">
+                  <img
+                    alt="DividerI2021"
+                    src="public/external/divideri2021-39ch.svg"
+                    class="songs-p2-divider4"
+                  />
+                </div>
+                <div class="songs-p2-divider5">
+                  <img
+                    alt="DividerI2021"
+                    src="public/external/divideri2021-39ch.svg"
+                    class="songs-p2-divider6"
+                  />
+                </div>
+              </div>
+              <div class="songs-p2-compactmediaplayer">
+                <div class="songs-p2-lineardeterminate">
+                  <div class="songs-p2-activeindicator">
+                    <img
+                      alt="SegmentstartI2021"
+                      src="public/external/segmentstarti2021-lky.svg"
+                      class="songs-p2-segmentstart"
+                    />
+                    <img
+                      alt="SegmentendI2021"
+                      src="public/external/segmentendi2021-j6l.svg"
+                      class="songs-p2-segmentend"
+                    />
+                  </div>
+                  <div class="songs-p2-trackandstop">
+                    <div class="songs-p2-track1">
+                      <img
+                        alt="trackI2021"
+                        src="public/external/tracki2021-5hrs-200h.png"
+                        class="songs-p2-track2"
+                      />
+                    </div>
+                    <div class="songs-p2-stop">
+                      <img
+                        alt="StopshapeI2021"
+                        src="public/external/stopshapei2021-762j-200w.png"
+                        class="songs-p2-stopshape"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="songs-p2-content9">
+                  <div class="songs-p2-image"></div>
+                  <div class="songs-p2-trackinfo">
+                    <span class="songs-p2-text53 M3bodymedium">
+                      <span>Title</span>
+                    </span>
+                    <span class="songs-p2-text55 M3bodysmall">
+                      <span>Artist</span>
+                    </span>
+                  </div>
+                  <div class="songs-p2-playbackcontrols">
+                    <img
+                      alt="pause2021"
+                      src="public/external/pause2021-3nw.svg"
+                      class="songs-p2-pause"
+                    />
+                    <img
+                      alt="skipnextfilled2021"
+                      src="public/external/skipnextfilled2021-ks3h.svg"
+                      class="songs-p2-skipnextfilled"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="songs-p2-gesturebar1">
+                <img
+                  alt="handleI4045"
+                  src="public/external/handlei4045-itjm-200h.png"
+                  class="songs-p2-handle1"
+                />
+              </div>
+            </div>
+            <div class="songs-p2-sortingcontrols">
+              <div class="songs-p2-container4">
+                <button class="songs-p2-button1">
+                  <div class="songs-p2-statelayer26">
+                    <img
+                      alt="iconI2021"
+                      src="public/external/iconi2021-vm6.svg"
+                      class="songs-p2-icon4"
+                    />
+                    <span class="songs-p2-text57 M3labellarge">
+                      <span>111 Songs</span>
+                    </span>
+                  </div>
+                </button>
+                <button class="songs-p2-button2">
+                  <div class="songs-p2-container5">
+                    <div class="songs-p2-statelayer27">
+                      <img
+                        alt="IconI2021"
+                        src="public/external/iconi2021-8u3p.svg"
+                        class="songs-p2-icon5"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip022">
+              <div class="songs-p2-statelayer28">
+                <img
+                  alt="iconI2021"
+                  src="public/external/iconi2021-k4rh.svg"
+                  class="songs-p2-icon6"
+                />
+                <span class="songs-p2-text59 BodyStrong">
+                  <span>Play</span>
+                </span>
+              </div>
+            </div>
+            <div class="songs-p2-filterchip023">
+              <div class="songs-p2-statelayer29">
+                <img
+                  alt="iconI2021"
+                  src="public/external/iconi2021-6cdh.svg"
+                  class="songs-p2-icon7"
+                />
+                <span class="songs-p2-text61 BodyStrong">
+                  <span>Shuffle</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="songs-p2-gesturebar2">
+            <img
+              alt="handleI2021"
+              src="public/external/handlei2021-g3gi-200h.png"
+              class="songs-p2-handle2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

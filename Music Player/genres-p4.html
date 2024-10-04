@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./genres-p4.css" rel="stylesheet" />
+
+      <div class="genres-p4-container1">
+        <div class="genres-p4-genres-p4">
+          <div class="genres-p4-statusbar">
+            <span class="genres-p4-text10"><span>9:30</span></span>
+            <div class="genres-p4-righticons">
+              <div class="genres-p4-wifi">
+                <img
+                  alt="PathI2021"
+                  src="public/external/pathi2021-fdqu.svg"
+                  class="genres-p4-path1"
+                />
+              </div>
+              <div class="genres-p4-signal">
+                <img
+                  alt="PathI2021"
+                  src="public/external/pathi2021-b6vtb.svg"
+                  class="genres-p4-path2"
+                />
+              </div>
+              <img
+                alt="BatteryI2021"
+                src="public/external/batteryi2021-yc0p.svg"
+                class="genres-p4-battery"
+              />
+            </div>
+            <img
+              alt="CameraCutoutI2021"
+              src="public/external/cameracutouti2021-dzkn.svg"
+              class="genres-p4-camera-cutout"
+            />
+          </div>
+          <div class="genres-p4-topappbar">
+            <div class="genres-p4-leadingicon">
+              <div class="genres-p4-container2">
+                <div class="genres-p4-statelayer1">
+                  <img
+                    alt="IconI2021"
+                    src="public/external/iconi2021-iym.svg"
+                    class="genres-p4-icon10"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="genres-p4-text12 M3titlelarge">
+              <span>Music</span>
+            </span>
+            <div class="genres-p4-trailingicon">
+              <div class="genres-p4-trailingicon3">
+                <div class="genres-p4-container3">
+                  <div class="genres-p4-statelayer2">
+                    <img
+                      alt="IconI2021"
+                      src="public/external/iconi2021-dhee.svg"
+                      class="genres-p4-icon11"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="genres-p4-filterchipscarousel">
+            <div class="genres-p4-filterchip02">
+              <div class="genres-p4-statelayer3">
+                <span class="genres-p4-text14 M3labellarge">
+                  <span>Songs</span>
+                </span>
+              </div>
+            </div>
+            <div class="genres-p4-filterchip03">
+              <div class="genres-p4-statelayer4">
+                <span class="genres-p4-text16 M3labellarge">
+                  <span>Playlist</span>
+                </span>
+              </div>
+            </div>
+            <div class="genres-p4-filterchip04">
+              <div class="genres-p4-statelayer5">
+                <img
+                  alt="iconI2021"
+                  src="public/external/iconi2021-uv6m.svg"
+                  class="genres-p4-icon12"
+                />
+                <span class="genres-p4-text18 M3labellarge">
+                  <span>Genres</span>
+                </span>
+              </div>
+            </div>
+            <div class="genres-p4-filterchip05">
+              <div class="genres-p4-statelayer6">
+                <span class="genres-p4-text20 M3labellarge">
+                  <span>Albums</span>
+                </span>
+              </div>
+            </div>
+            <div class="genres-p4-filterchip06"></div>
+            <div class="genres-p4-filterchip07"></div>
+            <div class="genres-p4-filterchip08"></div>
+            <div class="genres-p4-filterchip09"></div>
+            <div class="genres-p4-filterchip10"></div>
+          </div>
+          <div class="genres-p4-sortingcontrols">
+            <div class="genres-p4-container4">
+              <button class="genres-p4-button1">
+                <div class="genres-p4-statelayer7">
+                  <img
+                    alt="iconI2021"
+                    src="public/external/iconi2021-l91q.svg"
+                    class="genres-p4-icon13"
+                  />
+                  <span class="genres-p4-text22 M3labellarge">
+                    <span>Genres</span>
+                  </span>
+                </div>
+              </button>
+              <button class="genres-p4-button2">
+                <div class="genres-p4-container5">
+                  <div class="genres-p4-statelayer8">
+                    <img
+                      alt="IconI2021"
+                      src="public/external/iconi2021-w3k6.svg"
+                      class="genres-p4-icon14"
+                    />
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="genres-p4-section1">
+            <div class="genres-p4-carousel">
+              <div class="genres-p4-item01">
+                <div class="genres-p4-avatar1">
+                  <div class="genres-p4-image1"></div>
+                </div>
+                <span class="genres-p4-text24 M3labellarge">
+                  <span>RnB</span>
+                </span>
+              </div>
+              <div class="genres-p4-item02">
+                <div class="genres-p4-avatar2">
+                  <div class="genres-p4-image2"></div>
+                </div>
+                <span class="genres-p4-text26 M3labellarge">
+                  <span>Hip-hop</span>
+                </span>
+              </div>
+              <div class="genres-p4-item03">
+                <div class="genres-p4-avatar3">
+                  <div class="genres-p4-image3"></div>
+                </div>
+                <span class="genres-p4-text28 M3labellarge">
+                  <span>Amapiano</span>
+                </span>
+              </div>
+              <div class="genres-p4-item07"></div>
+              <div class="genres-p4-item08">
+                <div class="genres-p4-avatar4">
+                  <div class="genres-p4-image4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="genres-p4-section5">
+            <div class="genres-p4-header"></div>
+            <div class="genres-p4-swipeablearea1">
+              <div class="genres-p4-column1">
+                <div class="genres-p4-listitem1">
+                  <div class="genres-p4-textandimage1">
+                    <div class="genres-p4-image5"></div>
+                    <div class="genres-p4-content1">
+                      <div class="genres-p4-titledescription1">
+                        <span class="genres-p4-text30 M3titlelarge">
+                          <span>Headline</span>
+                        </span>
+                        <span class="genres-p4-text32 M3bodymedium">
+                          <span>
+                            Description duis aute irure dolor in reprehenderit
+                            in voluptate velit.
+                          </span>
+                        </span>
+                      </div>
+                      <div class="genres-p4-leading-trailingicons1">
+                        <div class="genres-p4-leading1">
+                          <img
+                            alt="Icon2021"
+                            src="public/external/icon2021-nwj9.svg"
+                            class="genres-p4-icon15"
+                          />
+                          <span class="genres-p4-text34 M3bodysmall">
+                            <span>Today</span>
+                          </span>
+                          <span class="genres-p4-text36 M3bodysmall">•</span>
+                          <span class="genres-p4-text37 M3bodysmall">
+                            <span>23 min</span>
+                          </span>
+                        </div>
+                        <img
+                          alt="Icon2021"
+                          src="public/external/icon2021-mrg5.svg"
+                          class="genres-p4-icon16"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="genres-p4-listitem2">
+                  <div class="genres-p4-textandimage2">
+                    <div class="genres-p4-image6"></div>
+                    <div class="genres-p4-content2">
+                      <div class="genres-p4-titledescription2">
+                        <span class="genres-p4-text39 M3titlelarge">
+                          <span>Headline</span>
+                        </span>
+                        <span class="genres-p4-text41 M3bodymedium">
+                          <span>
+                            Description duis aute irure dolor in reprehenderit
+                            in voluptate velit.
+                          </span>
+                        </span>
+                      </div>
+                      <div class="genres-p4-leading-trailingicons2">
+                        <div class="genres-p4-leading2">
+                          <img
+                            alt="Icon2021"
+                            src="public/external/icon2021-oks.svg"
+                            class="genres-p4-icon17"
+                          />
+                          <span class="genres-p4-text43 M3bodysmall">
+                            <span>Today</span>
+                          </span>
+                          <span class="genres-p4-text45 M3bodysmall">•</span>
+                          <span class="genres-p4-text46 M3bodysmall">
+                            <span>23 min</span>
+                          </span>
+                        </div>
+                        <img
+                          alt="Icon2021"
+                          src="public/external/icon2021-vczm.svg"
+                          class="genres-p4-icon18"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="genres-p4-swipeablearea2">
+                  <div class="genres-p4-column2">
+                    <div class="genres-p4-listitem3">
+                      <div class="genres-p4-textandimage3">
+                        <div class="genres-p4-image7"></div>
+                        <div class="genres-p4-content3">
+                          <div class="genres-p4-titledescription3">
+                            <span class="genres-p4-text48 M3titlelarge">
+                              <span>Headline</span>
+                            </span>
+                            <span class="genres-p4-text50 M3bodymedium">
+                              <span>
+                                Description duis aute irure dolor in
+                                reprehenderit in voluptate velit.
+                              </span>
+                            </span>
+                          </div>
+                          <div class="genres-p4-leading-trailingicons3">
+                            <div class="genres-p4-leading3">
+                              <img
+                                alt="Icon2021"
+                                src="public/external/icon2021-1d7o.svg"
+                                class="genres-p4-icon19"
+                              />
+                              <span class="genres-p4-text52 M3bodysmall">
+                                <span>Today</span>
+                              </span>
+                              <span class="genres-p4-text54 M3bodysmall">
+                                •
+                              </span>
+                              <span class="genres-p4-text55 M3bodysmall">
+                                <span>23 min</span>
+                              </span>
+                            </div>
+                            <img
+                              alt="Icon2021"
+                              src="public/external/icon2021-dhag.svg"
+                              class="genres-p4-icon20"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="genres-p4-listitem4">
+                      <div class="genres-p4-textandimage4">
+                        <div class="genres-p4-image8"></div>
+                        <div class="genres-p4-content4">
+                          <div class="genres-p4-titledescription4">
+                            <span class="genres-p4-text57 M3titlelarge">
+                              <span>Headline</span>
+                            </span>
+                            <span class="genres-p4-text59 M3bodymedium">
+                              <span>
+                                Description duis aute irure dolor in
+                                reprehenderit in voluptate velit.
+                              </span>
+                            </span>
+                          </div>
+                          <div class="genres-p4-leading-trailingicons4">
+                            <div class="genres-p4-leading4">
+                              <span class="genres-p4-text61 M3bodysmall">
+                                <span>Today</span>
+                              </span>
+                              <span class="genres-p4-text63 M3bodysmall">
+                                •
+                              </span>
+                              <span class="genres-p4-text64 M3bodysmall">
+                                <span>23 min</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="genres-p4-compactmediaplayer">
+            <div class="genres-p4-lineardeterminate">
+              <div class="genres-p4-activeindicator">
+                <img
+                  alt="SegmentstartI2021"
+                  src="public/external/segmentstarti2021-y4sb.svg"
+                  class="genres-p4-segmentstart"
+                />
+                <img
+                  alt="SegmentendI2021"
+                  src="public/external/segmentendi2021-k87xq.svg"
+                  class="genres-p4-segmentend"
+                />
+              </div>
+              <div class="genres-p4-trackandstop">
+                <div class="genres-p4-track1">
+                  <img
+                    alt="trackI2021"
+                    src="public/external/tracki2021-9tb-200h.png"
+                    class="genres-p4-track2"
+                  />
+                </div>
+                <div class="genres-p4-stop">
+                  <img
+                    alt="StopshapeI2021"
+                    src="public/external/stopshapei2021-375-200w.png"
+                    class="genres-p4-stopshape"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="genres-p4-content5">
+              <div class="genres-p4-image9"></div>
+              <div class="genres-p4-trackinfo">
+                <span class="genres-p4-text66 M3bodymedium">
+                  <span>Title</span>
+                </span>
+                <span class="genres-p4-text68 M3bodysmall">
+                  <span>Artist</span>
+                </span>
+              </div>
+              <div class="genres-p4-playbackcontrols">
+                <img
+                  alt="pause2021"
+                  src="public/external/pause2021-6q7g.svg"
+                  class="genres-p4-pause"
+                />
+                <img
+                  alt="skipnextfilled2021"
+                  src="public/external/skipnextfilled2021-7hje.svg"
+                  class="genres-p4-skipnextfilled"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="genres-p4-gesturebar">
+            <img
+              alt="handleI2021"
+              src="public/external/handlei2021-e7e-200h.png"
+              class="genres-p4-handle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
