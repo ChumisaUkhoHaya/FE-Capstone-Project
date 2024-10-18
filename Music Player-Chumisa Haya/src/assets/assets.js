@@ -22,10 +22,10 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
+import img from './img.jpeg'
+import img2 from './img2.jpeg'
+import img3 from './img3.jpeg'
+import img4 from './img4.jpeg'
 import img5 from './img5.jpg'
 import img6 from './img6.jpg'
 import img7 from './img7.jpg'
@@ -38,9 +38,10 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import SailorMoon from './SailorMoon.mp3'
+import Suited from  './Suited.mp3'
+import AgoraHills from  './AgoraHills.mp3'
+import HrsHrs from './HrsHrs.mp3'
 
 export const assets = {
     bell_icon,
@@ -117,41 +118,41 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Sailor Moon",
+        image: img,
+        file:SailorMoon,
+        desc:"LAYA",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Suited",
         image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:Suited,
+        desc:"Shekhinah",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Agora Hills",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        file:AgoraHills,
+        desc:"Doja Cat",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Hrs & Hrs",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:HrsHrs,
+        desc:"Muni Long",
         duration:"2:50"
     },
     {
         id:4,
         name: "Song Five",
         image: img5,
-        file:song2,
+        file:Suited,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
@@ -159,7 +160,7 @@ export const songsData = [
         id:5,
         name: "Song Six",
         image: img14    ,
-        file:song3,
+        file:AgoraHills,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
@@ -167,7 +168,7 @@ export const songsData = [
         id:6,
         name: "Song Seven",
         image: img7,
-        file:song1,
+        file:SailorMoon,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
@@ -175,7 +176,7 @@ export const songsData = [
         id:7,
         name: "Song Eight",
         image: img12,
-        file:song2,
+        file:Suited,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
