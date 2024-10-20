@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "./components/sidebar"
+import Sidebar from "./components/Sidebar"
 import Player from "./components/Player"
 import Display from "./components/Display"
 import { useContext } from "react";
@@ -22,4 +22,4 @@ const App = () => {
 
 }
 
-export default App
+export default App;
