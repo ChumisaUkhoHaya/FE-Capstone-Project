@@ -1,7 +1,7 @@
 # BowBeats
 
 ## Description
-BowBeats is a modern music player web application that allows users to listen to their favorite playlists and albums. T
+BowBeats is a modern music player web application inspired by Spotify, it allows users to listen to their favorite playlists and albums. T
 
 ## Features
 - **Music Playback**: Play, pause, and skip tracks easily.
