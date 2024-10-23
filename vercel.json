@@ -11,8 +11,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/FE-Capstone-Project/(.*)",
+      "dest": "/FE-Capstone-Project/index.html"
+    },
+    {
+      "src": "/FE-Capstone-Project/(.*)",
+      "dest": "/FE-Capstone-Project/$1"
     }
   ]
 }
